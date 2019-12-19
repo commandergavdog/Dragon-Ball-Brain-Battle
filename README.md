@@ -1,5 +1,7 @@
 # Dragon Ball Brain Battle!
-![Dragon Ball Brain Battle](https://commandergavdog.github.io/Dragon-Ball-Brain-Battle/)
+![Title Screen](https://github.com/commandergavdog/Dragon-Ball-Brain-Battle/blob/master/img/DBBB.PNG)
+![End SCreen](https://github.com/commandergavdog/Dragon-Ball-Brain-Battle/blob/master/img/Capture3.PNG)
+
 
 ## Description
 Dragon Ball Brain Battle is a multiple choice game in which players answer trivia questions about the Dragon Ball anime and manga.

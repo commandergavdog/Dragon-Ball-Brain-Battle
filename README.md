@@ -5,7 +5,7 @@
 
 ## Description
 Dragon Ball Brain Battle is a multiple choice game in which players answer trivia questions about the Dragon Ball anime and manga.
-If the player answers successfully, they are shown a frame from the anime. If the player answers incorrectly, they are shown an X and the correct answer. At the end you are given a score the number of correct answers given, wrong answers, and unanswered questions. 
+If the player answers successfully, they are shown a frame from the anime. If the player answers incorrectly, they are shown an X and the correct answer. At the end you are shown the number of correct answers given, wrong answers, and unanswered questions. 
 
 ### Technologies Used
 - [jQuery](https://jquery.com/)

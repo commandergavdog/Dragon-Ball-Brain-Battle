@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Saiyan Sans';
-  src: local('Saiyan Sans'), url("/assets/fonts/saiyan-sans/Saiyan-Sans.ttf") format('truetype');
+  src: local('Saiyan Sans'), url("/assets/fonts/saiyan-sans/SaiyanSans.ttf") format('truetype');
 }
 
 .jumbotron {

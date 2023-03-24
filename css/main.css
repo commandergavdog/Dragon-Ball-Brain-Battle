@@ -53,12 +53,11 @@
 }
 
 body {
-  background-color: #fe7f0c;
-
   background-image: url("stage.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: #fe7f0c;
   height: 100vh;
   width: 100vw;

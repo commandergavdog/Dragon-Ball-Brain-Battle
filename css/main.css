@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Saiyan-Sans';
+  src: local('Saiyan-Sans'), url("/assets/fonts/saiyan-sans/Saiyan-Sans.ttf") format('truetype');
+}
+
 .jumbotron {
   box-sizing: border-box;
   height: 600px;
@@ -12,28 +17,31 @@
 }
 
 .timer-p {
-  margin-top: 40px;
+  margin-top: 1em;
 }
 
 .answer:hover {
   background: pink;
+  cursor: pointer;
 }
 
 .answer {
-  padding-top: 7px;
-  height: 45px;
+  /* padding-top: 7px; */
+  height: 2.5em;
   color: black;
-  padding-left: 14px;
+  padding-left: 1em;
   background-color: white;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
 
 .img-wrong {
-  margin-top: 40px;
+  margin-top: 1em;
 }
 
 .first-answer {
-  margin-top: 40px;
+  margin-top: 2em;
 }
 
 .reset-button {
@@ -45,14 +53,21 @@
 }
 
 body {
+  background-color: #fe7f0c;
+
   background-image: url("stage.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   background-position: center;
   color: #fe7f0c;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 h1 {
+  font-size: 4em;
+  font-family: 'Saiyan-Sans';
   text-shadow:
 		-1px -1px 0 #0767d3,
 		1px -1px 0 #0767d3,
@@ -61,10 +76,17 @@ h1 {
 }
 
 .dbz {
-  font-size: 25px;
+  font-size: 2em;
+  font-weight: 700;
   text-shadow:
 		-1px -1px 0 #1f2d95,
 		1px -1px 0 #1f2d95,
 		-1px 1px 0 #1f2d95,
 		1px 1px 0 #1f2d95;
 }
+
+img {
+  max-width: 95vw;
+  margin: 1rem;
+}
+
